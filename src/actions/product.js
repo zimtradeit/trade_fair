@@ -24,7 +24,7 @@ export function useGetProducts() {
       productsLoading: isLoading,
       productsError: error,
       productsValidating: isValidating,
-      productsEmpty: !isLoading && !isValidating && !data?.products.length,
+      productsEmpty: !isLoading && !isValidating && (!Array.isArray(data?.products) || data.products.length === 0),
     }),
     [data?.products, error, isLoading, isValidating]
   );

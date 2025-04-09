@@ -24,13 +24,14 @@ export function useGetPosts() {
       postsLoading: isLoading,
       postsError: error,
       postsValidating: isValidating,
-      postsEmpty: !isLoading && !data?.posts.length,
+      postsEmpty: !isLoading && (!Array.isArray(data?.posts) || data.posts.length === 0),
     }),
     [data?.posts, error, isLoading, isValidating]
   );
 
   return memoizedValue;
 }
+
 
 // ----------------------------------------------------------------------
 

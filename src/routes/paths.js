@@ -22,6 +22,7 @@ export const paths = {
   pricing: '/pricing',
   payment: '/payment',
   about: '/about-us',
+  nextShe: '/next-she',
   contact: '/contact-us',
   faqs: '/faqs',
   page403: '/error/403',
@@ -33,7 +34,7 @@ export const paths = {
   zoneStore: 'https://mui.com/store/items/zone-landing-page/',
   minimalStore: 'https://mui.com/store/items/minimal-dashboard/',
   freeUI: 'https://mui.com/store/items/minimal-dashboard-free/',
-  figmaUrl: 'https://www.figma.com/design/cAPz4pYPtQEXivqe11EcDE/%5BPreview%5D-Minimal-Web.v6.0.0',
+  zimtradeUrl: 'https://tradezimbabwe.com',
   product: {
     root: `/product`,
     checkout: `/product/checkout`,
