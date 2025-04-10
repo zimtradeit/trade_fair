@@ -41,47 +41,47 @@ export function HomeHugePackElements({ sx, ...other }) {
       ]}
       {...other}
     >
-      <MotionViewport>
-        {renderLines()}
+      {/*<MotionViewport>*/}
+      {/*  {renderLines()}*/}
 
-        <Container sx={{ textAlign: { xs: 'center', md: 'left' } }}>
-          <Grid container rowSpacing={{ xs: 3, md: 0 }} columnSpacing={{ xs: 0, md: 8 }}>
-            <Grid size={{ xs: 12, md: 6, lg: 7 }}>
-              <SectionCaption title="Interface Starter Kit" />
-              <SectionTitle title="Large bundle of" txtGradient="elements" sx={{ mt: 3 }} />
-            </Grid>
+      {/*  <Container sx={{ textAlign: { xs: 'center', md: 'left' } }}>*/}
+      {/*    <Grid container rowSpacing={{ xs: 3, md: 0 }} columnSpacing={{ xs: 0, md: 8 }}>*/}
+      {/*      <Grid size={{ xs: 12, md: 6, lg: 7 }}>*/}
+      {/*        <SectionCaption title="Interface Starter Kit" />*/}
+      {/*        <SectionTitle title="Large bundle of" txtGradient="elements" sx={{ mt: 3 }} />*/}
+      {/*      </Grid>*/}
 
-            <Grid size={{ xs: 12, md: 6, lg: 5 }}>
-              <m.div variants={varFade('inUp', { distance: 24 })}>
-                <Typography
-                  sx={{ color: 'text.disabled', fontSize: { md: 20 }, lineHeight: { md: 36 / 20 } }}
-                >
-                  <Box component="span" sx={{ color: 'text.primary' }}>
-                    Explore a comprehensive range of elements
-                  </Box>
-                  <br />
-                  like menus, sliders, buttons, inputs, and others, all conveniently gathered here.
-                </Typography>
-              </m.div>
-            </Grid>
-          </Grid>
+      {/*      <Grid size={{ xs: 12, md: 6, lg: 5 }}>*/}
+      {/*        <m.div variants={varFade('inUp', { distance: 24 })}>*/}
+      {/*          <Typography*/}
+      {/*            sx={{ color: 'text.disabled', fontSize: { md: 20 }, lineHeight: { md: 36 / 20 } }}*/}
+      {/*          >*/}
+      {/*            <Box component="span" sx={{ color: 'text.primary' }}>*/}
+      {/*              Explore a comprehensive range of elements*/}
+      {/*            </Box>*/}
+      {/*            <br />*/}
+      {/*            like menus, sliders, buttons, inputs, and others, all conveniently gathered here.*/}
+      {/*          </Typography>*/}
+      {/*        </m.div>*/}
+      {/*      </Grid>*/}
+      {/*    </Grid>*/}
 
-          <m.div variants={varFade('inUp', { distance: 24 })}>
-            <Button
-              size="large"
-              color="inherit"
-              variant="outlined"
-              target="_blank"
-              rel="noopener"
-              href={paths.components}
-              endIcon={<Iconify icon="eva:arrow-ios-forward-fill" />}
-              sx={{ mt: 5, mx: 'auto' }}
-            >
-              Browse components
-            </Button>
-          </m.div>
-        </Container>
-      </MotionViewport>
+      {/*    <m.div variants={varFade('inUp', { distance: 24 })}>*/}
+      {/*      <Button*/}
+      {/*        size="large"*/}
+      {/*        color="inherit"*/}
+      {/*        variant="outlined"*/}
+      {/*        target="_blank"*/}
+      {/*        rel="noopener"*/}
+      {/*        href={paths.components}*/}
+      {/*        endIcon={<Iconify icon="eva:arrow-ios-forward-fill" />}*/}
+      {/*        sx={{ mt: 5, mx: 'auto' }}*/}
+      {/*      >*/}
+      {/*        Browse components*/}
+      {/*      </Button>*/}
+      {/*    </m.div>*/}
+      {/*  </Container>*/}
+      {/*</MotionViewport>*/}
       <ScrollableContent />
     </Box>
   );
