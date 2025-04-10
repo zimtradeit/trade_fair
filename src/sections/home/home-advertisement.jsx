@@ -192,8 +192,6 @@ export function CircularMotionCards() {
                     borderRadius: 'inherit',
                     padding: '2px',
                     background: `linear-gradient(45deg,
-
-                    
       ${theme.vars.palette.primary.main},
       ${theme.vars.palette.warning.main},
       ${theme.vars.palette.error.main},
