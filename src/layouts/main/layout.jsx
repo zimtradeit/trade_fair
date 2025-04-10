@@ -66,9 +66,9 @@ export function MainLayout({ sx, cssVars, children, slotProps, layoutQuery = 'md
             })}
           />
 
-          {/*<Box sx={{ display: 'flex', alignItems: 'center', gap: { xs: 1, sm: 1.5 } }}>*/}
-          {/*  /!** @slot Settings button *!/*/}
-          {/*  <SettingsButton />*/}
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: { xs: 1, sm: 1.5 } }}>
+            {/** @slot Settings button */}
+            <SettingsButton />
 
           {/*  /!** @slot Sign in button *!/*/}
           {/*  <SignInButton />*/}
@@ -86,7 +86,7 @@ export function MainLayout({ sx, cssVars, children, slotProps, layoutQuery = 'md
           {/*  >*/}
           {/*    Purchase*/}
           {/*  </Button>*/}
-          {/*</Box>*/}
+          </Box>
         </>
       ),
     };

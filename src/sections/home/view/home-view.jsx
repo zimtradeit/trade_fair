@@ -36,27 +36,30 @@ export function HomeView() {
       <BackToTopButton isVisible={isVisible} onClick={onBackToTop} />
 
       <HomeHero />
+      {/*<HomeAdvertisement />*/}
+
 
       <Stack sx={{ position: 'relative', bgcolor: 'background.default' }}>
-        <HomeMinimal />
 
-        <HomeHugePackElements />
+        {/*<HomeMinimal />*/}
 
-        <HomeForDesigner />
+        {/*<HomeHugePackElements />*/}
 
-        <HomeHighlightFeatures />
+        {/*<HomeForDesigner />*/}
 
-        <HomeIntegrations />
+        {/*<HomeHighlightFeatures />*/}
 
-        <HomePricing />
+        {/*<HomeIntegrations />*/}
 
-        <HomeTestimonials />
+        {/*<HomePricing />*/}
 
-        <HomeFAQs />
+        {/*<HomeTestimonials />*/}
 
-        <HomeZoneUI />
+        {/*<HomeFAQs />*/}
 
-        <HomeAdvertisement />
+        {/*<HomeZoneUI />*/}
+
+
       </Stack>
     </>
   );
